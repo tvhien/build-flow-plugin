@@ -262,4 +262,7 @@ searching github for `BuildFlowDSLExtension`:
 * https://github.com/jniesen/build-flow-http-extension-plugin
 * https://github.com/jenkinsci/buildflow-extensions-plugin
 
-
+## RPM build
+* Change the version of plugin in spec file
+* Update plugin %changelog in spec file
+* Rebuild rpm package with job build https://checklist.intgdc.com/job/tools/job/rpmbuild-el7-tools and merge
